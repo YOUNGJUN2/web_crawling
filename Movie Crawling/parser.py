@@ -1,7 +1,4 @@
-import os
-import sys
 import urllib.request
-from sys import argv
 import re
 
 def par(name):
