@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import parser2
+import parser
 
 j = 1
 
