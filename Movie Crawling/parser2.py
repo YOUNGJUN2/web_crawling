@@ -5,8 +5,8 @@ from sys import argv
 import re
 
 def par(name):
-    client_id = "5dySw1LrJcS06zuSLPsC"
-    client_secret = "70xfw7XbKI"
+    client_id = "ID"
+    client_secret = "PW"
     encText = urllib.parse.quote(name)
     url = "https://openapi.naver.com/v1/search/movie?query=" + encText # json 결과
     #url = "https://openapi.naver.com/v1/search/movie.xml?query=" + encText # xml 결과
