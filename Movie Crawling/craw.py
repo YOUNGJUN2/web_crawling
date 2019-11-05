@@ -7,7 +7,7 @@ j = 1
 
 name = input("영화제목  입력: ")
 
-name = parser2.par(name)
+name = parser.par(name)
 req = requests.get(name)
 html = req.text
 soup = BeautifulSoup(html, 'html.parser')
